@@ -48,7 +48,7 @@ The `runner.py` script orchestrates the full pipeline across multiple iterations
 All agents communicate through Academy's exchange layer (currently `LocalExchangeFactory` for single-node execution).
 
 <p align="center">
-  <img src="images/2-Ignos/agent_architecure.png" width="60%" alt="Fusion Agent architecture: iterative loop between RAG + Synthesis and Simulation + FM agents">
+  <img src="images/02-Ignos/agent_architecure.png" width="60%" alt="Fusion Agent architecture: iterative loop between RAG + Synthesis and Simulation + FM agents">
 </p>
 <p align="center"><em>Fusion Agent architecture: an input query drives an iterative loop between distributed RAG + Synthesis (right) and Simulation + FM execution (left), coordinated through Academy agents and sub-agents.</em></p>
 
@@ -63,7 +63,7 @@ The production system extends this prototype by replacing the local simulation s
 Cross-facility remote execution of the Fusion Foundation Model is managed through Globus Compute.
 
 <p align="center">
-  <img src="images/2-Ignos/ffm.png" width="60%" alt="Ignos Fusion Foundation Model: reasoning model, model selector routing to MATEY and Helios, and tool stack">
+  <img src="images/02-Ignos/ffm.png" width="60%" alt="Ignos Fusion Foundation Model: reasoning model, model selector routing to MATEY and Helios, and tool stack">
 </p>
 <p align="center"><em>Ignos (Fusion Foundation Model): a reasoning model selects between MATEY and Helios predictive and interpretive sub-models via a model selector, with a tool stack providing access to Gkeyll, BEAST/Transp, surrogates, and other simulation codes.</em></p>
 

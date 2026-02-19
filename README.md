@@ -7,7 +7,8 @@ The CAF **Agent of the Week**  (AotW) is an exemplary agentic application or ind
 
 ## Discover the Agents of the Week
 
-1. [**OPAL** ](AotW-1-OPAL.md)
+1. [**OPAL** ](AotW-01-OPAL.md)
+1. [**IGNOS** ](AotW-02-Ignos.md)
 
 
 ## How to become an Agent of the Week

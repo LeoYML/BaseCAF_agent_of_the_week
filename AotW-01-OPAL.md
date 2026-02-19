@@ -11,10 +11,10 @@
 The Advanced Plant Phenotyping Laboratory (APPL) at Oak Ridge National Laboratory is a one-of-a-kind robotic greenhouse that operates 24/7, imaging plants on daily or weekly schedules to study the genetics driving plant functioning. This automated facility generates massive volumes of images and associated plant trait data that, until now, could take months or even years to analyze and translate into biologically meaningful insights. The Orchestrated Platform for Autonomous Laboratories (OPAL), is a cross-laboratory DOE project under the umbrella of the Genesis Mission that pairs artificial intelligence systems and high-performance computing with facilities like APPL to accelerate scientific discovery in plant science and beyond.
 
 <p align="center">
-  <img src="images/1-OPAL/Opal.png" width="50%" alt="From Images to traits">
+  <img src="images/01-OPAL/Opal.png" width="50%" alt="From Images to traits">
 </p>
 <p align="center">
-  <img src="images/1-OPAL/Opal2.png" width="50%" alt="Agentic Workflow">
+  <img src="images/01-OPAL/Opal2.png" width="50%" alt="Agentic Workflow">
 </p>
 
 
@@ -38,7 +38,7 @@ By converting APPL from a passive data collection facility into an interactive, 
 The technical architecture integrates a nightly offline workflow for large-scale data ingestion with an interactive online workflow for real-time biological analysis, all unified by a multi-agent framework. Each night, raw imagery is processed on the APPL analysis server and staged to Frontier, where vision transformer models generate hundreds of terabytes of segmentation masks and precomputed plant KPIs. The interactive layer utilizes the Academy agentic framework, where a Co-Pilot agent translates natural language queries into execution plans, which are then handed off to a Compute Agent on Frontier. This agent uses Parsl to manage high-performance compute jobs &mdash; either retrieving precomputed traits or triggering on-demand inference for new hypotheses &mdash; while S3M Streams provides a secure, cross-facility Redis substrate for communication between agents. The entire lifecycle, including LLM prompts and HPC execution, is monitored via Flowcept to ensure end-to-end provenance and auditability.
 
 <p align="center">
-  <img src="images/1-OPAL/Opal3.png" width="70%" alt="Implementation">
+  <img src="images/01-OPAL/Opal3.png" width="70%" alt="Implementation">
 </p>
 
 ---
