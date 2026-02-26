@@ -160,4 +160,4 @@ This backend flexibility is a strong practical differentiator: teams can choose 
 ---
 
 *Last Updated: 02/26/2026*
-*Contributed by: Ling Yue, [yuel2@rpi.edu](mailto:yuel2@rpi.edu). SHaowu Pan, [pans2@rpi.edu](mailto:pans2@rpi.edu)*
+*Contributed by: Ling Yue, [yuel2@rpi.edu](mailto:yuel2@rpi.edu). Shaowu Pan, [pans2@rpi.edu](mailto:pans2@rpi.edu)*
